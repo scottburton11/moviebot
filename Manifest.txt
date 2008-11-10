@@ -1,0 +1,7 @@
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+bin/movie_bot
+lib/movie_bot.rb
+test/test_movie_bot.rb
