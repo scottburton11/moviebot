@@ -1,0 +1,1047 @@
+--- 
+- :extension: .001
+  :description: Fax File
+- :extension: .2bp
+  :description: Pocket PC Bitmap Image File
+- :extension: .2d
+  :description: VersaCAD 2D Drawing
+- :extension: .3d
+  :description: Stereo CAD-3D Image File
+- :extension: .3d2
+  :description: Stereo CAD-3D 2.0 Image File
+- :extension: .3d4
+  :description: Stereo CAD-3D 2.0 Image File
+- :extension: .3da
+  :description: 3D Assembly
+- :extension: .3df
+  :description: 3D Format
+- :extension: .3dl
+  :description: LightConverse 3D Model File
+- :extension: .3dm
+  :description: Rhino 3D Model
+- :extension: .3dmf
+  :description: QuickDraw 3D Metafile
+- :extension: .3ds
+  :description: 3D Studio Scene
+- :extension: .3dv
+  :description: 3D VRML World
+- :extension: .3dx
+  :description: Rhino 3D Model File
+- :extension: .8pbs
+  :description: Adobe Photoshop Macintosh File
+- :extension: .ac5
+  :description: ArtCut 5 Document
+- :extension: .ac6
+  :description: ArtCut 6 Document
+- :extension: .acr
+  :description: American College of Radiology Format
+- :extension: .act
+  :description: Genesis3D Actor File
+- :extension: .adc
+  :description: Scanstudio 16 Color Image
+- :extension: .adi
+  :description: AutoCAD Device-Independent Binary Plotter File
+- :extension: .afp
+  :description: Advanced Function Presentation File
+- :extension: .agif
+  :description: Active GIF Creator Project
+- :extension: .agp
+  :description: ArtGem Project File
+- :extension: .ai
+  :description: Adobe Illustrator File
+- :extension: .ais
+  :description: ACDSee Image Sequence
+- :extension: .amu
+  :description: Sony Photo Album
+- :extension: .anm
+  :description: 3D Animation File
+- :extension: .apng
+  :description: Animated Portable Network Graphic
+- :extension: .ard
+  :description: ArtiosCAD Workspace File
+- :extension: .arr
+  :description: Amber Graphic File
+- :extension: .art
+  :description: AOL Compressed Image File
+- :extension: .art
+  :description: Art Document
+- :extension: .asat
+  :description: Assemble SAT 3D Model File
+- :extension: .awd
+  :description: FaxView Document
+- :extension: .bip
+  :description: Character Studio Biped File
+- :extension: .biz
+  :description: Broderbund Business Card File
+- :extension: .blend
+  :description: Blender 3D Data File
+- :extension: .blkrt
+  :description: Block Artist Image File
+- :extension: .blz
+  :description: Compressed Bitmap Graphic
+- :extension: .bmc
+  :description: Embroidery Image File
+- :extension: .bmc
+  :description: Bitmap Cache File
+- :extension: .bmf
+  :description: Binary Material File
+- :extension: .bmf
+  :description: FloorPlan File
+- :extension: .bmp
+  :description: Bitmap Image File
+- :extension: .br3
+  :description: Bryce 3 Scene File
+- :extension: .br4
+  :description: Bryce 4 Scene File
+- :extension: .br5
+  :description: Bryce 3D Scene File
+- :extension: .bro
+  :description: CreataCard Brochure Project
+- :extension: .bro
+  :description: Broadleaf Tree Model
+- :extension: .btf
+  :description: NationsBank Check Images
+- :extension: .btif
+  :description: NationsBank Check Images
+- :extension: .bvh
+  :description: Biovision Hierarchy Animation File
+- :extension: .c4
+  :description: JEDMICS Image File
+- :extension: .c4d
+  :description: Cinema 4D Model File
+- :extension: .cag
+  :description: Clip Art Gallery
+- :extension: .cal
+  :description: Calendar File
+- :extension: .cal
+  :description: CALS Raster Graphic
+- :extension: .cals
+  :description: CALS Raster Graphic File
+- :extension: .cam
+  :description: Casio Digital Camera Picture
+- :extension: .catpart
+  :description: CATIA V5 Part Document
+- :extension: .cd2
+  :description: Click'N Design 3d File
+- :extension: .cdr
+  :description: CorelDRAW Image File
+- :extension: .cdt
+  :description: CorelDraw Template
+- :extension: .ce
+  :description: Computer Eyes Image
+- :extension: .cel
+  :description: MicroStation Cell Library
+- :extension: .cgm
+  :description: Computer Graphics Metafile
+- :extension: .cil
+  :description: ClipArt Gallery Packaged File
+- :extension: .cin
+  :description: Kodak Cineon Bitmap File
+- :extension: .cit
+  :description: Intergraph Bitmap Image File
+- :extension: .cld
+  :description: Canon CD Label Template
+- :extension: .cm2
+  :description: Poser Camera Set File
+- :extension: .cmp
+  :description: Solid Edge Wire Harness File
+- :extension: .cmx
+  :description: Corel Metafile Exchange Image File
+- :extension: .cmz
+  :description: Compressed Poser Camera Set File
+- :extension: .cnv
+  :description: Canvas 6-8 Drawing File
+- :extension: .comicdoc
+  :description: Comic Life Document
+- :extension: .cpc
+  :description: CPC Compressed Image File
+- :extension: .cph
+  :description: Corel Print House File
+- :extension: .cps
+  :description: Corel Photo House File
+- :extension: .cpt
+  :description: Corel Photo-Paint Document
+- :extension: .cr2
+  :description: Canon Raw Image File
+- :extension: .cr2
+  :description: Poser Character Rigging File
+- :extension: .crw
+  :description: Canon Raw CIFF Image File
+- :extension: .crz
+  :description: Compressed Poser Character Rigging File
+- :extension: .csd
+  :description: Compact Shared Document
+- :extension: .csf
+  :description: Content Secure Format
+- :extension: .csm
+  :description: Character Studio Marker File
+- :extension: .cut
+  :description: Dr. Halo Bitmap Image File
+- :extension: .cv5
+  :description: Canvas 5 Drawing File
+- :extension: .cvg
+  :description: Calamus Vector Graphic File
+- :extension: .cvi
+  :description: Canvas Image Format
+- :extension: .cvi
+  :description: CassiniVision Map Image File
+- :extension: .cvs
+  :description: Canvas 4 Drawing File
+- :extension: .cvx
+  :description: Canvas 9 Image File
+- :extension: .dae
+  :description: Digital Asset Exchange File
+- :extension: .dc
+  :description: DesignCAD Design File
+- :extension: .dcd
+  :description: DesignCAD Drawing
+- :extension: .dcm
+  :description: DICOM Image File
+- :extension: .dcr
+  :description: Kodak RAW Image File
+- :extension: .dcs
+  :description: Desktop Color Separation File
+- :extension: .dcx
+  :description: FAXserve Fax Document
+- :extension: .ddb
+  :description: Device Dependent Bitmap
+- :extension: .ddrw
+  :description: ClarisDraw Drawing
+- :extension: .dds
+  :description: DirectDraw Surface
+- :extension: .des
+  :description: Pro/DESKTOP CAD File
+- :extension: .des
+  :description: Corel Designer File
+- :extension: .dff
+  :description: RenderWare Model File
+- :extension: .dgn
+  :description: MicroStation Drawing File
+- :extension: .dib
+  :description: Device Independent Bitmap File
+- :extension: .djvu
+  :description: DjVu Image
+- :extension: .dng
+  :description: Digital Negative Image File
+- :extension: .dpd
+  :description: Ovation Pro File
+- :extension: .dpp
+  :description: DrawPlus Drawing File
+- :extension: .dpr
+  :description: Digital InterPlot File
+- :extension: .dpx
+  :description: Digital Picture Exchange File
+- :extension: .drw
+  :description: Drawing File
+- :extension: .drw
+  :description: DESIGNER Drawing
+- :extension: .dtp
+  :description: Publish-iT Document
+- :extension: .dvl
+  :description: Virtual Library File
+- :extension: .dwf
+  :description: Design Web Format File
+- :extension: .dwg
+  :description: AutoCAD Drawing Database File
+- :extension: .dxb
+  :description: Drawing Exchange Binary
+- :extension: .dxf
+  :description: Drawing Exchange Format File
+- :extension: .emf
+  :description: Enhanced Windows Metafile
+- :extension: .emz
+  :description: Windows Compressed Enhanced Metafile
+- :extension: .enc
+  :description: Copysafe Protected PDF File
+- :extension: .eps
+  :description: Encapsulated PostScript File
+- :extension: .exif
+  :description: Exchangeable Image Information File
+- :extension: .fac
+  :description: FACE Graphic
+- :extension: .face
+  :description: FACE Graphic
+- :extension: .fal
+  :description: Bitmap Graphic Header Information
+- :extension: .fax
+  :description: Fax Document
+- :extension: .fbm
+  :description: Fuzzy Bitmap
+- :extension: .fbx
+  :description: Autodesk FBX Interchange File
+- :extension: .fc2
+  :description: Poser Face Pose File
+- :extension: .fcd
+  :description: FastCAD DOS Drawing
+- :extension: .fcw
+  :description: FastCAD Windows Drawing
+- :extension: .fcz
+  :description: Compressed Poser Face Pose File
+- :extension: .fd2
+  :description: PictureMate Borders File
+- :extension: .fh9
+  :description: FreeHand 9 Drawing File
+- :extension: .fhd
+  :description: FreeHand Drawing File
+- :extension: .fig
+  :description: Xfig Drawing
+- :extension: .fil
+  :description: Symbian Application Logo File
+- :extension: .fits
+  :description: Flexible Image Transport System
+- :extension: .flx
+  :description: FelixCAD Drawing
+- :extension: .fm
+  :description: FrameMaker Document
+- :extension: .fp3
+  :description: FloorPlan 3D Design File
+- :extension: .fpx
+  :description: FlashPix Bitmap Image File
+- :extension: .fs
+  :description: FlexiSIGN Document
+- :extension: .g
+  :description: BRL-CAD Geometry File
+- :extension: .gds
+  :description: Graphic Design System
+- :extension: .gem
+  :description: Ventura Publisher Document
+- :extension: .gem
+  :description: GEM Metafile
+- :extension: .geo
+  :description: VRML Geography File
+- :extension: .gfb
+  :description: GIFBlast Image
+- :extension: .gif
+  :description: Graphical Interchange Format File
+- :extension: .gks
+  :description: Graphics Kernel System
+- :extension: .gmf
+  :description: Geology Multi-File
+- :extension: .graffle
+  :description: OmniGraffle Drawing
+- :extension: .gry
+  :description: Grayscale Image
+- :extension: .gsd
+  :description: Graphtec Vector Graphics File
+- :extension: .gsm
+  :description: Graphic Description Language File
+- :extension: .hcx
+  :description: ChartXL Chart
+- :extension: .hd2
+  :description: Poser Hand Pose File
+- :extension: .hdp
+  :description: HD Photo File
+- :extension: .hdr
+  :description: High Dynamic Range Image File
+- :extension: .hdz
+  :description: Compressed Poser Hand Pose File
+- :extension: .hf
+  :description: HF Image
+- :extension: .hip
+  :description: Houdini Project File
+- :extension: .hipnc
+  :description: Houdini Apprentice File
+- :extension: .hmk
+  :description: Hallmark Card Studio File
+- :extension: .hpgl
+  :description: HP Graphics Language Plotter File
+- :extension: .hpi
+  :description: Hemera Photo Objects Image File
+- :extension: .hpl
+  :description: HP-GL Plotter File
+- :extension: .hr
+  :description: TRS-80 Graphic
+- :extension: .hr2
+  :description: Poser Hair File
+- :extension: .hrf
+  :description: Hitachi Raster Format
+- :extension: .hrz
+  :description: Compressed Poser Hair File
+- :extension: .iam
+  :description: Inventor Assembly File
+- :extension: .ic1
+  :description: Low Resolution Imagic Graphic
+- :extension: .ic2
+  :description: Medium Resolution Imagic Graphic
+- :extension: .ic3
+  :description: High Resolution Imagic Graphic
+- :extension: .ica
+  :description: Image Object Content Architecture (IOCA) File
+- :extension: .icb
+  :description: Targa ICB Bitmap Image
+- :extension: .icn
+  :description: Windows Icon File
+- :extension: .icon
+  :description: Icon Image File
+- :extension: .ics
+  :description: IronCAD 3D Drawing File
+- :extension: .idw
+  :description: Inventor Drawing
+- :extension: .iff
+  :description: Amiga IFF Graphic
+- :extension: .iges
+  :description: IGES File
+- :extension: .igs
+  :description: IGES Drawing File
+- :extension: .ilbm
+  :description: Deluxe Paint Graphic
+- :extension: .imj
+  :description: JFIF Bitmap Image
+- :extension: .indd
+  :description: Adobe InDesign File
+- :extension: .indt
+  :description: InDesign Template
+- :extension: .info
+  :description: ZoomBrowser Image Index File
+- :extension: .ink
+  :description: Pantone Reference File
+- :extension: .ink
+  :description: Pocket PC Handwritten Note
+- :extension: .int
+  :description: SGI Integer Image
+- :extension: .inx
+  :description: InDesign Interchange File
+- :extension: .ipt
+  :description: Inventor Part File
+- :extension: .ithmb
+  :description: iPod Photo Thumbnails
+- :extension: .ivr
+  :description: Image World
+- :extension: .j
+  :description: JPEG Image
+- :extension: .j2c
+  :description: JPEG 2000 Code Stream
+- :extension: .j2k
+  :description: JPEG 2000 Image
+- :extension: .jas
+  :description: Paint Shop Pro Compressed Graphic
+- :extension: .jbf
+  :description: Paint Shop Pro Browser Cache
+- :extension: .jbig
+  :description: Joint Bi-level Image Group File
+- :extension: .jbr
+  :description: Paint Shop Pro Brushes File
+- :extension: .jfi
+  :description: JPEG File Interchange
+- :extension: .jfif
+  :description: JPEG File Interchange Format
+- :extension: .jif
+  :description: JPEG Image File
+- :extension: .jiff
+  :description: JPEG Image File Format
+- :extension: .jng
+  :description: JPEG Network Graphic
+- :extension: .jp2
+  :description: JPEG 2000 Core Image File
+- :extension: .jpc
+  :description: JPEG 2000 Code Stream File
+- :extension: .jpe
+  :description: JPEG Image
+- :extension: .jpeg
+  :description: JPEG Image File
+- :extension: .jpf
+  :description: JPEG 2000 Image
+- :extension: .jpg
+  :description: JPEG Image File
+- :extension: .jpw
+  :description: World File for JPEG
+- :extension: .jpx
+  :description: JPEG 2000 Image File
+- :extension: .jtf
+  :description: JPEG Tagged Interchange Format
+- :extension: .kdc
+  :description: Kodak Photo-Enhancer File
+- :extension: .kdk
+  :description: Kodak Proprietary Decimated TIFF Format
+- :extension: .kfx
+  :description: Kofax Image File
+- :extension: .kodak
+  :description: Kodak Photo CD File
+- :extension: .kpg
+  :description: Kai's Power Goo Graphic
+- :extension: .lab
+  :description: WordPerfect Label Definition File
+- :extension: .lbm
+  :description: Deluxe Paint Bitmap Image
+- :extension: .lin
+  :description: AutoCAD Linetype File
+- :extension: .lt2
+  :description: Poser Light Set File
+- :extension: .ltz
+  :description: Compressed Poser Light Set File
+- :extension: .lwo
+  :description: LightWave 3D Object File
+- :extension: .lws
+  :description: LightWave 3D Scene File
+- :extension: .lxf
+  :description: LEGO Digital Designer Model File
+- :extension: .ma
+  :description: Maya Project File
+- :extension: .mac
+  :description: MacPaint Image
+- :extension: .mag
+  :description: Access Diagram
+- :extension: .max
+  :description: PaperPort Scanned Document
+- :extension: .max
+  :description: OmniPage Scanned Document
+- :extension: .max
+  :description: 3D Studio Max Model File
+- :extension: .mb
+  :description: Maya Binary Project File
+- :extension: .mbm
+  :description: Multi Bitmap File
+- :extension: .mc5
+  :description: Poser 5 Material File
+- :extension: .mc6
+  :description: Poser 6 Material File
+- :extension: .mcs
+  :description: Mathcad Image
+- :extension: .mcx
+  :description: MICRO CADAM-X/6000 Model Data File
+- :extension: .mcz
+  :description: Compressed Poser Material File
+- :extension: .mdi
+  :description: Microsoft Document Imaging File
+- :extension: .meb
+  :description: PRO100 3D Interior Catalog Element
+- :extension: .mesh
+  :description: 3D Mesh Model
+- :extension: .mgf
+  :description: Materials and Geometry Format
+- :extension: .mgs
+  :description: MGCSoft Vector Shapes
+- :extension: .mic
+  :description: Image Composer File
+- :extension: .mip
+  :description: Multiple Image Print File
+- :extension: .mix
+  :description: Picture It! Image File
+- :extension: .mix
+  :description: PhotoDraw Image File
+- :extension: .mma
+  :description: Master Album Maker Digital Photo Album
+- :extension: .mng
+  :description: Multiple Network Graphic
+- :extension: .mnm
+  :description: Character Studio Marker Name File
+- :extension: .model
+  :description: CATIA 3D Model FIle
+- :extension: .mp
+  :description: Maya PLE Project File
+- :extension: .mrb
+  :description: Multiple Resolution Bitmap
+- :extension: .mrw
+  :description: Minolta Raw Image File
+- :extension: .msk
+  :description: Paint Shop Pro Mask
+- :extension: .msp
+  :description: Microsoft Paint Bitmap Image
+- :extension: .mtx
+  :description: MetaStream Scene File
+- :extension: .mtz
+  :description: Compressed MetaStream Scene File
+- :extension: .nav
+  :description: MSN Application Extension
+- :extension: .ncd
+  :description: Nero Cover Designer Document
+- :extension: .nef
+  :description: Nikon Raw Image File
+- :extension: .neo
+  :description: NeoChrome Bitmap Image
+- :extension: .nff
+  :description: Neutral File Format
+- :extension: .nif
+  :description: Gamebryo Image
+- :extension: .ntc
+  :description: Nikon Capture Custom Curves
+- :extension: .ntf
+  :description: MediaFace II CD Label
+- :extension: .obj
+  :description: 3D Object File
+- :extension: .odc
+  :description: OpenDocument Chart
+- :extension: .odg
+  :description: OpenDocument Graphic
+- :extension: .odi
+  :description: OpenDocument Image
+- :extension: .odif
+  :description: Open Document Interchange Format
+- :extension: .off
+  :description: Object File Format
+- :extension: .ola
+  :description: Online Access File
+- :extension: .omf
+  :description: OMF Interchange Image File
+- :extension: .opd
+  :description: OmniPage Document
+- :extension: .opf
+  :description: FlipAlbum File
+- :extension: .orf
+  :description: Olympus RAW File
+- :extension: .ota
+  :description: OTA Bitmap
+- :extension: .otb
+  :description: Nokia Over The Air Bitmap
+- :extension: .otc
+  :description: OpenDocument Chart Template
+- :extension: .otg
+  :description: OpenDocument Graphic Template
+- :extension: .oti
+  :description: OpenDocument Image Template
+- :extension: .ovw
+  :description: Cubase WAVE File Overview
+- :extension: .p21
+  :description: Express STEP Data Model File
+- :extension: .p2z
+  :description: Compressed Poser Pose File
+- :extension: .p3d
+  :description: Peak3D 3D Graphics File
+- :extension: .p65
+  :description: PageMaker 6.5 Document
+- :extension: .pac
+  :description: STAD Graphic File
+- :extension: .pal
+  :description: Dr. Halo Color Palette
+- :extension: .pap
+  :description: PanoramaStudio Project File
+- :extension: .pat
+  :description: Pattern File
+- :extension: .pat
+  :description: 3D Patch File
+- :extension: .pbm
+  :description: Portable Bitmap Image
+- :extension: .pc1
+  :description: Degas Elite Low Res Image File
+- :extension: .pc2
+  :description: Degas Elite Medium Res Image File
+- :extension: .pc3
+  :description: Degas Elite High Res Image File
+- :extension: .pc6
+  :description: PowerCADD 6 Drawing File
+- :extension: .pc7
+  :description: PowerCADD 7 Drawing File
+- :extension: .pcd
+  :description: Kodak Photo CD Image File
+- :extension: .pct
+  :description: Picture File
+- :extension: .pcx
+  :description: Paintbrush Bitmap Image File
+- :extension: .pd
+  :description: FlexiSIGN 5 Plotter Document
+- :extension: .pdd
+  :description: Adobe PhotoDeluxe Image
+- :extension: .pdf
+  :description: Portable Document Format File
+- :extension: .pdg
+  :description: Print Designer GOLD File
+- :extension: .pe4
+  :description: Photo Explorer Thumbnail Archive
+- :extension: .pe4
+  :description: PhotoImpact Image Archive
+- :extension: .pef
+  :description: Pentax Electronic File
+- :extension: .pfr
+  :description: Paint Shop Pro Picture Frame
+- :extension: .pgm
+  :description: Portable Gray Map Image
+- :extension: .pi1
+  :description: Degas Low Resolution Image File
+- :extension: .pi2
+  :description: Degas Medium Resolution Image File
+- :extension: .pi3
+  :description: Degas High Resolution Image File
+- :extension: .pi4
+  :description: DEGAS Image
+- :extension: .pi5
+  :description: DEGAS Image
+- :extension: .pi6
+  :description: DEGAS Image
+- :extension: .pic
+  :description: Generic Picture File
+- :extension: .pic
+  :description: QuickTime PICT Image
+- :extension: .pic
+  :description: Houdini Raster Image
+- :extension: .picnc
+  :description: Houdini 3D Compositing Image
+- :extension: .pict
+  :description: Picture File
+- :extension: .pictclipping
+  :description: Picture Clipping
+- :extension: .pix
+  :description: BRL-CAD Raw Image File
+- :extension: .pl
+  :description: Unix Color Plot File
+- :extension: .pl0
+  :description: 3D Home Architect Foundation Floor Plan
+- :extension: .pl1
+  :description: 3D Home Architect Floor Plan
+- :extension: .pl2
+  :description: 3D Home Architect Second Level Floor Plan
+- :extension: .pla
+  :description: ArchiCAD Project Archive
+- :extension: .pln
+  :description: ArchiCAD Project File
+- :extension: .plt
+  :description: AutoCAD Plotter Document
+- :extension: .plt
+  :description: HPGL Plot File
+- :extension: .ply
+  :description: Polygon Model File
+- :extension: .pm
+  :description: Unix XV Graphic File
+- :extension: .pm3
+  :description: PageMaker 3 Document
+- :extension: .pm4
+  :description: PageMaker 4 Document
+- :extension: .pm5
+  :description: PageMaker 5.0 Document
+- :extension: .pm6
+  :description: PageMaker 6.0 Document
+- :extension: .png
+  :description: Portable Network Graphic
+- :extension: .pnt
+  :description: MacPaint File
+- :extension: .pov
+  :description: POV-Ray Raytracing Format
+- :extension: .pov
+  :description: Prolab Object File
+- :extension: .pp2
+  :description: Poser Prop File
+- :extension: .ppm
+  :description: Portable Pixmap Image File
+- :extension: .ppp
+  :description: Page Plus Publication
+- :extension: .ppx
+  :description: PagePlus Template File
+- :extension: .ppz
+  :description: Compressed Poser Prop File
+- :extension: .prn
+  :description: Printable File
+- :extension: .prt
+  :description: Solid Edge Part File
+- :extension: .prt
+  :description: Unigraphics Part File
+- :extension: .prw
+  :description: Artlantis Shader Preview File
+- :extension: .ps
+  :description: PostScript File
+- :extension: .psb
+  :description: Photoshop Large Document Format
+- :extension: .psd
+  :description: Photoshop Document
+- :extension: .psf
+  :description: PhotoStudio File
+- :extension: .psg
+  :description: Page Segment File
+- :extension: .psid
+  :description: PostScript Image Data
+- :extension: .psm
+  :description: Solid Edge Sheet Metal File
+- :extension: .psp
+  :description: Paint Shop Pro Image File
+- :extension: .pspimage
+  :description: Paint Shop Pro Image
+- :extension: .ptx
+  :description: Pentax RAW Image File
+- :extension: .ptx
+  :description: Paint Shop Pro Texture File
+- :extension: .pwp
+  :description: PhotoWorks Image
+- :extension: .pws
+  :description: Print Workshop Image
+- :extension: .px
+  :description: Pixel Image File
+- :extension: .pxr
+  :description: Pixar Image File
+- :extension: .pz2
+  :description: Poser Pose File
+- :extension: .pz3
+  :description: Poser Scene File
+- :extension: .pzz
+  :description: Compressed Poser Scene File
+- :extension: .qif
+  :description: QuickTime Image File
+- :extension: .qti
+  :description: QuickTime Image File
+- :extension: .qtif
+  :description: QuickTime Image File
+- :extension: .qxd
+  :description: QuarkXpress Document
+- :extension: .qxp
+  :description: QuarkXpress Project File
+- :extension: .qxt
+  :description: QuarkXpress Template
+- :extension: .raf
+  :description: Fuji RAW Image File
+- :extension: .ras
+  :description: Sun Raster Graphic
+- :extension: .raw
+  :description: Raw Image Data File
+- :extension: .ray
+  :description: Rayshade Image
+- :extension: .rds
+  :description: Ray Dream Studio Scene File
+- :extension: .rgb
+  :description: RGB Bitmap
+- :extension: .rgb
+  :description: Q0 Image File
+- :extension: .rif
+  :description: Raster Image File
+- :extension: .rix
+  :description: ColorRIX Bitmap Graphic
+- :extension: .rle
+  :description: Run Length Encoded Bitmap
+- :extension: .rsr
+  :description: Poser Model Preview File
+- :extension: .sar
+  :description: Saracen Paint Graphic
+- :extension: .sat
+  :description: ACIS SAT Model File
+- :extension: .sbk
+  :description: Scrapbook Factory File
+- :extension: .scg
+  :description: ColorRIX Bitmap Graphic
+- :extension: .sci
+  :description: ColorRIX Bitmap Graphic
+- :extension: .scp
+  :description: ColorRIX Bitmap Graphic
+- :extension: .sct
+  :description: Scitex Continuous Tone File
+- :extension: .scu
+  :description: ColorRIX Bitmap Graphic
+- :extension: .scv
+  :description: ScanVec CASmate Sign File
+- :extension: .sda
+  :description: OpenOffice.org Draw Document
+- :extension: .sdb
+  :description: SAP2000 Model File
+- :extension: .sdm
+  :description: Spatial Data Modeling Language
+- :extension: .sdr
+  :description: SmartDraw Drawing
+- :extension: .sdt
+  :description: SmartDraw Template File
+- :extension: .sff
+  :description: Structured Fax Format
+- :extension: .sfw
+  :description: Seattle FilmWorks Image
+- :extension: .sgi
+  :description: Silicon Graphics Image File
+- :extension: .sh3d
+  :description: Sweet Home 3D Design File
+- :extension: .sh3f
+  :description: Sweet Home 3D Model Library
+- :extension: .shg
+  :description: Segmented Hyper-Graphic
+- :extension: .shp
+  :description: Shapes File
+- :extension: .si
+  :description: Softimage Image Format
+- :extension: .sid
+  :description: MrSID Image
+- :extension: .sig
+  :description: Broderbund Sign File
+- :extension: .sim
+  :description: Aurora Image
+- :extension: .skp
+  :description: SketchUp Document
+- :extension: .sldasm
+  :description: SolidWorks Assembly File
+- :extension: .slddrw
+  :description: SolidWorks Drawing File
+- :extension: .sldprt
+  :description: SolidWorks Part File
+- :extension: .smp
+  :description: Xionics SMP Image Format
+- :extension: .snp
+  :description: Access Report Snapshot
+- :extension: .sp
+  :description: SignPlot Traffic Sign File
+- :extension: .spc
+  :description: Spectrum 512 Compressed Image
+- :extension: .spe
+  :description: WinSpec CCD Capture File
+- :extension: .spiff
+  :description: Still Picture Interchange File Format
+- :extension: .spp
+  :description: PhotoPlus Picture File
+- :extension: .spt
+  :description: SpeedTree Tree Data File
+- :extension: .spu
+  :description: Spectrum 512 Image
+- :extension: .sr
+  :description: Sun Raster Image File
+- :extension: .srf
+  :description: Sony Raw Image File
+- :extension: .std
+  :description: StarOffice Drawing Template
+- :extension: .step
+  :description: STEP 3D Model
+- :extension: .stl
+  :description: Stereolithography File
+- :extension: .sto
+  :description: PRO100 3D Interior Design Project
+- :extension: .stp
+  :description: STEP 3D CAD File
+- :extension: .sun
+  :description: Sun Raster Graphic
+- :extension: .suniff
+  :description: Sun TAAC Graphic
+- :extension: .sup
+  :description: Subtitle Bitmap File
+- :extension: .svg
+  :description: Scalable Vector Graphics File
+- :extension: .sxd
+  :description: StarOffice Drawing
+- :extension: .taac
+  :description: Sun TAAC Graphic
+- :extension: .tcd
+  :description: Technobox CAD Drawing
+- :extension: .tct
+  :description: TurboCAD Drawing Template
+- :extension: .tcw
+  :description: TurboCAD Drawing File
+- :extension: .tcx
+  :description: TurboCAD 3D Model Text File
+- :extension: .tddd
+  :description: 3D Data Description
+- :extension: .tex
+  :description: Texture File
+- :extension: .tfw
+  :description: World File for TIFF
+- :extension: .tga
+  :description: Targa Graphic
+- :extension: .thm
+  :description: Thumbnail Image File
+- :extension: .thm
+  :description: Video Thumbnail File
+- :extension: .thumb
+  :description: JAlbum Thumbnail File
+- :extension: .tif
+  :description: Tagged Image File
+- :extension: .tiff
+  :description: Tagged Image File Format
+- :extension: .tjp
+  :description: Tiled JPEG File
+- :extension: .tlc
+  :description: The Logo Creator File
+- :extension: .tn1
+  :description: Tiny Image (Low Resolution)
+- :extension: .tn2
+  :description: Tiny Image (Medium Resolution)
+- :extension: .tn3
+  :description: Tiny Image (High Resolution)
+- :extension: .tny
+  :description: Atari Tiny Image
+- :extension: .trif
+  :description: Tiled Raster Interchange Format
+- :extension: .u
+  :description: Subsampled Raw YUV Image
+- :extension: .u3d
+  :description: Universal 3D File
+- :extension: .ufo
+  :description: Ulead File Object
+- :extension: .urt
+  :description: Utah Raster Toolkit File
+- :extension: .v
+  :description: Subsampled Raw YUV Image
+- :extension: .v3d
+  :description: Visual3D.NET Data File
+- :extension: .vda
+  :description: Targa Bitmap Image File
+- :extension: .vff
+  :description: Sun TAAC Graphic File
+- :extension: .vic
+  :description: VICAR Image
+- :extension: .viff
+  :description: Visualization Image File Format
+- :extension: .vis
+  :description: Visibility Image File
+- :extension: .vna
+  :description: JVC JLIP Image
+- :extension: .vrl
+  :description: VRML Virtual World
+- :extension: .vsd
+  :description: Visio Drawing File
+- :extension: .vss
+  :description: Visio Stencil File
+- :extension: .vst
+  :description: Targa Bitmap Image
+- :extension: .vst
+  :description: Visio Drawing Template
+- :extension: .vtx
+  :description: Anim8or 3D Model
+- :extension: .vue
+  :description: Vue Scene File
+- :extension: .vvd
+  :description: Vivid 3D Scanner Element File
+- :extension: .vwx
+  :description: VectorWorks 2008 Design File
+- :extension: .wbmp
+  :description: Wireless Bitmap Image File
+- :extension: .wdp
+  :description: Windows Media Photo File
+- :extension: .web
+  :description: Xara Web Format
+- :extension: .wgs
+  :description: Walk-Graph Segment
+- :extension: .wi
+  :description: Wavelet Image
+- :extension: .wic
+  :description: J Wavelet Image
+- :extension: .wmf
+  :description: Windows Metafile
+- :extension: .wmp
+  :description: Windows Media Photo File
+- :extension: .wnk
+  :description: Wink Screen Capture
+- :extension: .wpg
+  :description: WordPerfect Graphic File
+- :extension: .wrl
+  :description: VRML World
+- :extension: .wrp
+  :description: Geomagic 3D Wrap File
+- :extension: .wrz
+  :description: VRML World
+- :extension: .x3d
+  :description: Xara3D Project
+- :extension: .xar
+  :description: Xara Xtreme Drawing
+- :extension: .xbm
+  :description: X11 Bitmap Graphic
+- :extension: .xcf
+  :description: GIMP Image
+- :extension: .xdw
+  :description: Fuji Xerox DocuWorks File
+- :extension: .xif
+  :description: ScanSoft Pagis File
+- :extension: .xof
+  :description: Reality Lab 3D Image File
+- :extension: .xpm
+  :description: X11 Pixmap Graphic
+- :extension: .xsi
+  :description: Softimage XSI 3D Image
+- :extension: .xwd
+  :description: X Windows Dump
+- :extension: .xws
+  :description: Xara Webstyle Graphic
+- :extension: .y
+  :description: Subsampled Raw YUV Image
+- :extension: .yal
+  :description: Arts & Letters Clipart Library
+- :extension: .yaodl
+  :description: Powerflip 3D Image File
+- :extension: .ydl
+  :description: Powerflip YAODL 3D Image File
+- :extension: .yuv
+  :description: YUV Encoded Image File
+- :extension: .zgm
+  :description: Zenographics Image File
+- :extension: .zif
+  :description: Zooming Image Format File
+- :extension: .zno
+  :description: Zinio Electronic Magazine File
+- :extension: .zt
+  :description: Mental Ray Image Depth File

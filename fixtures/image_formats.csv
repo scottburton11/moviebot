@@ -1,0 +1,524 @@
+Extension,Description
+.001,Fax File
+.2bp,Pocket PC Bitmap Image File
+.2d,VersaCAD 2D Drawing
+.3d,Stereo CAD-3D Image File
+.3d2,Stereo CAD-3D 2.0 Image File
+.3d4,Stereo CAD-3D 2.0 Image File
+.3da,3D Assembly
+.3df,3D Format
+.3dl,LightConverse 3D Model File
+.3dm,Rhino 3D Model
+.3dmf,QuickDraw 3D Metafile
+.3ds,3D Studio Scene
+.3dv,3D VRML World
+.3dx,Rhino 3D Model File
+.8pbs,Adobe Photoshop Macintosh File
+.ac5,ArtCut 5 Document
+.ac6,ArtCut 6 Document
+.acr,American College of Radiology Format
+.act,Genesis3D Actor File
+.adc,Scanstudio 16 Color Image
+.adi,AutoCAD Device-Independent Binary Plotter File
+.afp,Advanced Function Presentation File
+.agif,Active GIF Creator Project
+.agp,ArtGem Project File
+.ai,Adobe Illustrator File
+.ais,ACDSee Image Sequence
+.amu,Sony Photo Album
+.anm,3D Animation File
+.apng,Animated Portable Network Graphic
+.ard,ArtiosCAD Workspace File
+.arr,Amber Graphic File
+.art,AOL Compressed Image File
+.art,Art Document
+.asat,Assemble SAT 3D Model File
+.awd,FaxView Document
+.bip,Character Studio Biped File
+.biz,Broderbund Business Card File
+.blend,Blender 3D Data File
+.blkrt,Block Artist Image File
+.blz,Compressed Bitmap Graphic
+.bmc,Embroidery Image File
+.bmc,Bitmap Cache File
+.bmf,Binary Material File
+.bmf,FloorPlan File
+.bmp,Bitmap Image File
+.br3,Bryce 3 Scene File
+.br4,Bryce 4 Scene File
+.br5,Bryce 3D Scene File
+.bro,CreataCard Brochure Project
+.bro,Broadleaf Tree Model
+.btf,NationsBank Check Images
+.btif,NationsBank Check Images
+.bvh,Biovision Hierarchy Animation File
+.c4,JEDMICS Image File
+.c4d,Cinema 4D Model File
+.cag,Clip Art Gallery
+.cal,Calendar File
+.cal,CALS Raster Graphic
+.cals,CALS Raster Graphic File
+.cam,Casio Digital Camera Picture
+.catpart,CATIA V5 Part Document
+.cd2,Click'N Design 3d File
+.cdr,CorelDRAW Image File
+.cdt,CorelDraw Template
+.ce,Computer Eyes Image
+.cel,MicroStation Cell Library
+.cgm,Computer Graphics Metafile
+.cil,ClipArt Gallery Packaged File
+.cin,Kodak Cineon Bitmap File
+.cit,Intergraph Bitmap Image File
+.cld,Canon CD Label Template
+.cm2,Poser Camera Set File
+.cmp,Solid Edge Wire Harness File
+.cmx,Corel Metafile Exchange Image File
+.cmz,Compressed Poser Camera Set File
+.cnv,Canvas 6-8 Drawing File
+.comicdoc,Comic Life Document
+.cpc,CPC Compressed Image File
+.cph,Corel Print House File
+.cps,Corel Photo House File
+.cpt,Corel Photo-Paint Document
+.cr2,Canon Raw Image File
+.cr2,Poser Character Rigging File
+.crw,Canon Raw CIFF Image File
+.crz,Compressed Poser Character Rigging File
+.csd,Compact Shared Document
+.csf,Content Secure Format
+.csm,Character Studio Marker File
+.cut,Dr. Halo Bitmap Image File
+.cv5,Canvas 5 Drawing File
+.cvg,Calamus Vector Graphic File
+.cvi,Canvas Image Format
+.cvi,CassiniVision Map Image File
+.cvs,Canvas 4 Drawing File
+.cvx,Canvas 9 Image File
+.dae,Digital Asset Exchange File
+.dc,DesignCAD Design File
+.dcd,DesignCAD Drawing
+.dcm,DICOM Image File
+.dcr,Kodak RAW Image File
+.dcs,Desktop Color Separation File
+.dcx,FAXserve Fax Document
+.ddb,Device Dependent Bitmap
+.ddrw,ClarisDraw Drawing
+.dds,DirectDraw Surface
+.des,Pro/DESKTOP CAD File
+.des,Corel Designer File
+.dff,RenderWare Model File
+.dgn,MicroStation Drawing File
+.dib,Device Independent Bitmap File
+.djvu,DjVu Image
+.dng,Digital Negative Image File
+.dpd,Ovation Pro File
+.dpp,DrawPlus Drawing File
+.dpr,Digital InterPlot File
+.dpx,Digital Picture Exchange File
+.drw,Drawing File
+.drw,DESIGNER Drawing
+.dtp,Publish-iT Document
+.dvl,Virtual Library File
+.dwf,Design Web Format File
+.dwg,AutoCAD Drawing Database File
+.dxb,Drawing Exchange Binary
+.dxf,Drawing Exchange Format File
+.emf,Enhanced Windows Metafile
+.emz,Windows Compressed Enhanced Metafile
+.enc,Copysafe Protected PDF File
+.eps,Encapsulated PostScript File
+.exif,Exchangeable Image Information File
+.fac,FACE Graphic
+.face,FACE Graphic
+.fal,Bitmap Graphic Header Information
+.fax,Fax Document
+.fbm,Fuzzy Bitmap
+.fbx,Autodesk FBX Interchange File
+.fc2,Poser Face Pose File
+.fcd,FastCAD DOS Drawing
+.fcw,FastCAD Windows Drawing
+.fcz,Compressed Poser Face Pose File
+.fd2,PictureMate Borders File
+.fh9,FreeHand 9 Drawing File
+.fhd,FreeHand Drawing File
+.fig,Xfig Drawing
+.fil,Symbian Application Logo File
+.fits,Flexible Image Transport System
+.flx,FelixCAD Drawing
+.fm,FrameMaker Document
+.fp3,FloorPlan 3D Design File
+.fpx,FlashPix Bitmap Image File
+.fs,FlexiSIGN Document
+.g,BRL-CAD Geometry File
+.gds,Graphic Design System
+.gem,Ventura Publisher Document
+.gem,GEM Metafile
+.geo,VRML Geography File
+.gfb,GIFBlast Image
+.gif,Graphical Interchange Format File
+.gks,Graphics Kernel System
+.gmf,Geology Multi-File
+.graffle,OmniGraffle Drawing
+.gry,Grayscale Image
+.gsd,Graphtec Vector Graphics File
+.gsm,Graphic Description Language File
+.hcx,ChartXL Chart
+.hd2,Poser Hand Pose File
+.hdp,HD Photo File
+.hdr,High Dynamic Range Image File
+.hdz,Compressed Poser Hand Pose File
+.hf,HF Image
+.hip,Houdini Project File
+.hipnc,Houdini Apprentice File
+.hmk,Hallmark Card Studio File
+.hpgl,HP Graphics Language Plotter File
+.hpi,Hemera Photo Objects Image File
+.hpl,HP-GL Plotter File
+.hr,TRS-80 Graphic
+.hr2,Poser Hair File
+.hrf,Hitachi Raster Format
+.hrz,Compressed Poser Hair File
+.iam,Inventor Assembly File
+.ic1,Low Resolution Imagic Graphic
+.ic2,Medium Resolution Imagic Graphic
+.ic3,High Resolution Imagic Graphic
+.ica,Image Object Content Architecture (IOCA) File
+.icb,Targa ICB Bitmap Image
+.icn,Windows Icon File
+.icon,Icon Image File
+.ics,IronCAD 3D Drawing File
+.idw,Inventor Drawing
+.iff,Amiga IFF Graphic
+.iges,IGES File
+.igs,IGES Drawing File
+.ilbm,Deluxe Paint Graphic
+.imj,JFIF Bitmap Image
+.indd,Adobe InDesign File
+.indt,InDesign Template
+.info,ZoomBrowser Image Index File
+.ink,Pantone Reference File
+.ink,Pocket PC Handwritten Note
+.int,SGI Integer Image
+.inx,InDesign Interchange File
+.ipt,Inventor Part File
+.ithmb,iPod Photo Thumbnails
+.ivr,Image World
+.j,JPEG Image
+.j2c,JPEG 2000 Code Stream
+.j2k,JPEG 2000 Image
+.jas,Paint Shop Pro Compressed Graphic
+.jbf,Paint Shop Pro Browser Cache
+.jbig,Joint Bi-level Image Group File
+.jbr,Paint Shop Pro Brushes File
+.jfi,JPEG File Interchange
+.jfif,JPEG File Interchange Format
+.jif,JPEG Image File
+.jiff,JPEG Image File Format
+.jng,JPEG Network Graphic
+.jp2,JPEG 2000 Core Image File
+.jpc,JPEG 2000 Code Stream File
+.jpe,JPEG Image
+.jpeg,JPEG Image File
+.jpf,JPEG 2000 Image
+.jpg,JPEG Image File
+.jpw,World File for JPEG
+.jpx,JPEG 2000 Image File
+.jtf,JPEG Tagged Interchange Format
+.kdc,Kodak Photo-Enhancer File
+.kdk,Kodak Proprietary Decimated TIFF Format
+.kfx,Kofax Image File
+.kodak,Kodak Photo CD File
+.kpg,Kai's Power Goo Graphic
+.lab,WordPerfect Label Definition File
+.lbm,Deluxe Paint Bitmap Image
+.lin,AutoCAD Linetype File
+.lt2,Poser Light Set File
+.ltz,Compressed Poser Light Set File
+.lwo,LightWave 3D Object File
+.lws,LightWave 3D Scene File
+.lxf,LEGO Digital Designer Model File
+.ma,Maya Project File
+.mac,MacPaint Image
+.mag,Access Diagram
+.max,PaperPort Scanned Document
+.max,OmniPage Scanned Document
+.max,3D Studio Max Model File
+.mb,Maya Binary Project File
+.mbm,Multi Bitmap File
+.mc5,Poser 5 Material File
+.mc6,Poser 6 Material File
+.mcs,Mathcad Image
+.mcx,MICRO CADAM-X/6000 Model Data File
+.mcz,Compressed Poser Material File
+.mdi,Microsoft Document Imaging File
+.meb,PRO100 3D Interior Catalog Element
+.mesh,3D Mesh Model
+.mgf,Materials and Geometry Format
+.mgs,MGCSoft Vector Shapes
+.mic,Image Composer File
+.mip,Multiple Image Print File
+.mix,Picture It! Image File
+.mix,PhotoDraw Image File
+.mma,Master Album Maker Digital Photo Album
+.mng,Multiple Network Graphic
+.mnm,Character Studio Marker Name File
+.model,CATIA 3D Model FIle
+.mp,Maya PLE Project File
+.mrb,Multiple Resolution Bitmap
+.mrw,Minolta Raw Image File
+.msk,Paint Shop Pro Mask
+.msp,Microsoft Paint Bitmap Image
+.mtx,MetaStream Scene File
+.mtz,Compressed MetaStream Scene File
+.nav,MSN Application Extension
+.ncd,Nero Cover Designer Document
+.nef,Nikon Raw Image File
+.neo,NeoChrome Bitmap Image
+.nff,Neutral File Format
+.nif,Gamebryo Image
+.ntc,Nikon Capture Custom Curves
+.ntf,MediaFace II CD Label
+.obj,3D Object File
+.odc,OpenDocument Chart
+.odg,OpenDocument Graphic
+.odi,OpenDocument Image
+.odif,Open Document Interchange Format
+.off,Object File Format
+.ola,Online Access File
+.omf,OMF Interchange Image File
+.opd,OmniPage Document
+.opf,FlipAlbum File
+.orf,Olympus RAW File
+.ota,OTA Bitmap
+.otb,Nokia Over The Air Bitmap
+.otc,OpenDocument Chart Template
+.otg,OpenDocument Graphic Template
+.oti,OpenDocument Image Template
+.ovw,Cubase WAVE File Overview
+.p21,Express STEP Data Model File
+.p2z,Compressed Poser Pose File
+.p3d,Peak3D 3D Graphics File
+.p65,PageMaker 6.5 Document
+.pac,STAD Graphic File
+.pal,Dr. Halo Color Palette
+.pap,PanoramaStudio Project File
+.pat,Pattern File
+.pat,3D Patch File
+.pbm,Portable Bitmap Image
+.pc1,Degas Elite Low Res Image File
+.pc2,Degas Elite Medium Res Image File
+.pc3,Degas Elite High Res Image File
+.pc6,PowerCADD 6 Drawing File
+.pc7,PowerCADD 7 Drawing File
+.pcd,Kodak Photo CD Image File
+.pct,Picture File
+.pcx,Paintbrush Bitmap Image File
+.pd,FlexiSIGN 5 Plotter Document
+.pdd,Adobe PhotoDeluxe Image
+.pdf,Portable Document Format File
+.pdg,Print Designer GOLD File
+.pe4,Photo Explorer Thumbnail Archive
+.pe4,PhotoImpact Image Archive
+.pef,Pentax Electronic File
+.pfr,Paint Shop Pro Picture Frame
+.pgm,Portable Gray Map Image
+.pi1,Degas Low Resolution Image File
+.pi2,Degas Medium Resolution Image File
+.pi3,Degas High Resolution Image File
+.pi4,DEGAS Image
+.pi5,DEGAS Image
+.pi6,DEGAS Image
+.pic,Generic Picture File
+.pic,QuickTime PICT Image
+.pic,Houdini Raster Image
+.picnc,Houdini 3D Compositing Image
+.pict,Picture File
+.pictclipping,Picture Clipping
+.pix,BRL-CAD Raw Image File
+.pl,Unix Color Plot File
+.pl0,3D Home Architect Foundation Floor Plan
+.pl1,3D Home Architect Floor Plan
+.pl2,3D Home Architect Second Level Floor Plan
+.pla,ArchiCAD Project Archive
+.pln,ArchiCAD Project File
+.plt,AutoCAD Plotter Document
+.plt,HPGL Plot File
+.ply,Polygon Model File
+.pm,Unix XV Graphic File
+.pm3,PageMaker 3 Document
+.pm4,PageMaker 4 Document
+.pm5,PageMaker 5.0 Document
+.pm6,PageMaker 6.0 Document
+.png,Portable Network Graphic
+.pnt,MacPaint File
+.pov,POV-Ray Raytracing Format
+.pov,Prolab Object File
+.pp2,Poser Prop File
+.ppm,Portable Pixmap Image File
+.ppp,Page Plus Publication
+.ppx,PagePlus Template File
+.ppz,Compressed Poser Prop File
+.prn,Printable File
+.prt,Solid Edge Part File
+.prt,Unigraphics Part File
+.prw,Artlantis Shader Preview File
+.ps,PostScript File
+.psb,Photoshop Large Document Format
+.psd,Photoshop Document
+.psf,PhotoStudio File
+.psg,Page Segment File
+.psid,PostScript Image Data
+.psm,Solid Edge Sheet Metal File
+.psp,Paint Shop Pro Image File
+.pspimage,Paint Shop Pro Image
+.ptx,Pentax RAW Image File
+.ptx,Paint Shop Pro Texture File
+.pwp,PhotoWorks Image
+.pws,Print Workshop Image
+.px,Pixel Image File
+.pxr,Pixar Image File
+.pz2,Poser Pose File
+.pz3,Poser Scene File
+.pzz,Compressed Poser Scene File
+.qif,QuickTime Image File
+.qti,QuickTime Image File
+.qtif,QuickTime Image File
+.qxd,QuarkXpress Document
+.qxp,QuarkXpress Project File
+.qxt,QuarkXpress Template
+.raf,Fuji RAW Image File
+.ras,Sun Raster Graphic
+.raw,Raw Image Data File
+.ray,Rayshade Image
+.rds,Ray Dream Studio Scene File
+.rgb,RGB Bitmap
+.rgb,Q0 Image File
+.rif,Raster Image File
+.rix,ColorRIX Bitmap Graphic
+.rle,Run Length Encoded Bitmap
+.rsr,Poser Model Preview File
+.sar,Saracen Paint Graphic
+.sat,ACIS SAT Model File
+.sbk,Scrapbook Factory File
+.scg,ColorRIX Bitmap Graphic
+.sci,ColorRIX Bitmap Graphic
+.scp,ColorRIX Bitmap Graphic
+.sct,Scitex Continuous Tone File
+.scu,ColorRIX Bitmap Graphic
+.scv,ScanVec CASmate Sign File
+.sda,OpenOffice.org Draw Document
+.sdb,SAP2000 Model File
+.sdm,Spatial Data Modeling Language
+.sdr,SmartDraw Drawing
+.sdt,SmartDraw Template File
+.sff,Structured Fax Format
+.sfw,Seattle FilmWorks Image
+.sgi,Silicon Graphics Image File
+.sh3d,Sweet Home 3D Design File
+.sh3f,Sweet Home 3D Model Library
+.shg,Segmented Hyper-Graphic
+.shp,Shapes File
+.si,Softimage Image Format
+.sid,MrSID Image
+.sig,Broderbund Sign File
+.sim,Aurora Image
+.skp,SketchUp Document
+.sldasm,SolidWorks Assembly File
+.slddrw,SolidWorks Drawing File
+.sldprt,SolidWorks Part File
+.smp,Xionics SMP Image Format
+.snp,Access Report Snapshot
+.sp,SignPlot Traffic Sign File
+.spc,Spectrum 512 Compressed Image
+.spe,WinSpec CCD Capture File
+.spiff,Still Picture Interchange File Format
+.spp,PhotoPlus Picture File
+.spt,SpeedTree Tree Data File
+.spu,Spectrum 512 Image
+.sr,Sun Raster Image File
+.srf,Sony Raw Image File
+.std,StarOffice Drawing Template
+.step,STEP 3D Model
+.stl,Stereolithography File
+.sto,PRO100 3D Interior Design Project
+.stp,STEP 3D CAD File
+.sun,Sun Raster Graphic
+.suniff,Sun TAAC Graphic
+.sup,Subtitle Bitmap File
+.svg,Scalable Vector Graphics File
+.sxd,StarOffice Drawing
+.taac,Sun TAAC Graphic
+.tcd,Technobox CAD Drawing
+.tct,TurboCAD Drawing Template
+.tcw,TurboCAD Drawing File
+.tcx,TurboCAD 3D Model Text File
+.tddd,3D Data Description
+.tex,Texture File
+.tfw,World File for TIFF
+.tga,Targa Graphic
+.thm,Thumbnail Image File
+.thm,Video Thumbnail File
+.thumb,JAlbum Thumbnail File
+.tif,Tagged Image File
+.tiff,Tagged Image File Format
+.tjp,Tiled JPEG File
+.tlc,The Logo Creator File
+.tn1,Tiny Image (Low Resolution)
+.tn2,Tiny Image (Medium Resolution)
+.tn3,Tiny Image (High Resolution)
+.tny,Atari Tiny Image
+.trif,Tiled Raster Interchange Format
+.u,Subsampled Raw YUV Image
+.u3d,Universal 3D File
+.ufo,Ulead File Object
+.urt,Utah Raster Toolkit File
+.v,Subsampled Raw YUV Image
+.v3d,Visual3D.NET Data File
+.vda,Targa Bitmap Image File
+.vff,Sun TAAC Graphic File
+.vic,VICAR Image
+.viff,Visualization Image File Format
+.vis,Visibility Image File
+.vna,JVC JLIP Image
+.vrl,VRML Virtual World
+.vsd,Visio Drawing File
+.vss,Visio Stencil File
+.vst,Targa Bitmap Image
+.vst,Visio Drawing Template
+.vtx,Anim8or 3D Model
+.vue,Vue Scene File
+.vvd,Vivid 3D Scanner Element File
+.vwx,VectorWorks 2008 Design File
+.wbmp,Wireless Bitmap Image File
+.wdp,Windows Media Photo File
+.web,Xara Web Format
+.wgs,Walk-Graph Segment
+.wi,Wavelet Image
+.wic,J Wavelet Image
+.wmf,Windows Metafile
+.wmp,Windows Media Photo File
+.wnk,Wink Screen Capture
+.wpg,WordPerfect Graphic File
+.wrl,VRML World
+.wrp,Geomagic 3D Wrap File
+.wrz,VRML World
+.x3d,Xara3D Project
+.xar,Xara Xtreme Drawing
+.xbm,X11 Bitmap Graphic
+.xcf,GIMP Image
+.xdw,Fuji Xerox DocuWorks File
+.xif,ScanSoft Pagis File
+.xof,Reality Lab 3D Image File
+.xpm,X11 Pixmap Graphic
+.xsi,Softimage XSI 3D Image
+.xwd,X Windows Dump
+.xws,Xara Webstyle Graphic
+.y,Subsampled Raw YUV Image
+.yal,Arts & Letters Clipart Library
+.yaodl,Powerflip 3D Image File
+.ydl,Powerflip YAODL 3D Image File
+.yuv,YUV Encoded Image File
+.zgm,Zenographics Image File
+.zif,Zooming Image Format File
+.zno,Zinio Electronic Magazine File
+.zt,Mental Ray Image Depth File

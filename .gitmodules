@@ -1,0 +1,3 @@
+[submodule "vendor/im_magick"]
+	path = vendor/im_magick
+	url = git://github.com/fabien/im_magick.git

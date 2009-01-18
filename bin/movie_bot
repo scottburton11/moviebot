@@ -1,0 +1,45 @@
+#!/usr/bin/env ruby 
+
+# == Synopsis 
+#   MovieBot converts movies. You can run it in regular mode by providing the 
+#   input and output filenames. In queue mode, input filenames are provided 
+#   by reading a MemCache queue. Crawl mode will compress movies in the input
+#   directory that aren't already in the output directory.
+#
+# == Examples
+#
+#     movie_bot /path/to/input.mov -o /path/to/output.mov
+#     movie_bot -q -o /path/to/output/
+#     movie_bot /path/to/input -c -o /path/to/output
+#
+# == Usage 
+#   reguglar mode: movie_bot [options] /path/to/input -o /path/to/output
+#      queue mode: movie_bot [options] -q -o /path/to/output
+#      crawl mode: movie_bot [options] /path/to/input -c -o /path/to/output 
+# 
+#   For help use: movie_bot -h
+#
+# == Options
+#   -h, --help          Displays help message
+#   -v, --version       Display the version, then exit
+#   -Q, --quiet         Output as little as possible, overrides verbose
+#   -V, --verbose       Verbose output
+#   -o, --output        Set an output location
+#   -q, --queue         Operate in queue mode
+#   -c, --crawl         Operate in crawl mode
+#
+#
+# == Author
+#   Scott Burton
+#
+# == Copyright
+#   Copyright (c) 2008 Scott Burton. Licensed under the MIT License:
+#   http://www.opensource.org/licenses/mit-license.php
+
+
+require File.join(File.dirname(__FILE__), '../init.rb')
+
+
+# Create and run the application
+movie_bot = MovieBot.new(ARGV, STDIN)
+movie_bot.run

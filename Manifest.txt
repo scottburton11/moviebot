@@ -4,4 +4,6 @@ README.txt
 Rakefile
 bin/movie_bot
 lib/movie_bot.rb
+lib/movie_maker.rb
+lib/image_converter.rb
 test/test_movie_bot.rb

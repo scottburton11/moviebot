@@ -1,5 +1,40 @@
 #!/usr/bin/env ruby 
 
+# == Synopsis 
+#   MovieBot converts movies. You can run it in regular mode by providing the 
+#   input and output filenames. In queue mode, input filenames are provided 
+#   by reading a MemCache queue. Crawl mode will compress movies in the input
+#   directory that aren't already in the output directory.
+#
+# == Examples
+#
+#     movie_bot /path/to/input.mov -o /path/to/output.mov
+#     movie_bot -q -o /path/to/output/
+#     movie_bot /path/to/input -c -o /path/to/output
+#
+# == Usage 
+#   reguglar mode: movie_bot [options] /path/to/input -o /path/to/output
+#      queue mode: movie_bot [options] -q -o /path/to/output
+#      crawl mode: movie_bot [options] /path/to/input -c -o /path/to/output 
+# 
+#   For help use: movie_bot -h
+#
+# == Options
+#   -h, --help          Displays help message
+#   -v, --version       Display the version, then exit
+#   -Q, --quiet         Output as little as possible, overrides verbose
+#   -V, --verbose       Verbose output
+#   -o, --output        Set an output location
+#   -q, --queue         Operate in queue mode
+#   -c, --crawl         Operate in crawl mode
+#
+#
+# == Author
+#   Scott Burton
+#
+# == Copyright
+#   Copyright (c) 2008 Scott Burton. Licensed under the MIT License:
+#   http://www.opensource.org/licenses/mit-license.php
 
 require 'rubygems'
 
@@ -9,6 +44,8 @@ require 'ostruct'
 require 'date'
 
 require 'starling'
+
+require 'init'
 
 class MovieBot
   VERSION = '0.0.1'
@@ -25,9 +62,6 @@ class MovieBot
     @options.quiet = false
     @options.output = ENV["PWD"]
     @options.mode = "standard"
-    @options.queue_host = "127.0.0.1"
-    @options.queue_port = "22122"
-    @options.queue_name = "render"
   end
 
   # Parse options, check arguments, then process the command
@@ -61,7 +95,7 @@ class MovieBot
       opts.on('-V', '--verbose')    { @options.verbose = true }  
       opts.on('-Q', '--quiet')      { @options.quiet = true }
       opts.on('-o', '--output FILE')     { |path| @options.output = path }
-      opts.on('-q', '--queue HOST:PORT:NAME')      {|queue| @options.mode = "queue"; @options.queue_host, @options.queue_port, @options.queue_name = queue.split(':') unless queue.empty?}
+      opts.on('-q', '--queue')      {@options.mode = "queue"}
       opts.on('-c', '--crawl')      {@options.mode = "crawl"}
             
       opts.parse!(@arguments) rescue return false
@@ -121,7 +155,7 @@ class MovieBot
       
       case @options.mode
       when "queue"
-        QueueRunner.new(@options.output, @options.queue_host, @options.queue_port, @options.queue_name)
+        QueueRunner.new(@options.output)
       when "crawl"
         
       else
@@ -149,5 +183,5 @@ end
 
 
 # Create and run the application
-# movie_bot = MovieBot.new(ARGV, STDIN)
-# movie_bot.run
+movie_bot = MovieBot.new(ARGV, STDIN)
+movie_bot.run

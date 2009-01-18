@@ -1,14 +1,16 @@
 = MovieBot
 
-* FIX (url)
+* no site yet
 
 == DESCRIPTION:
 
-FIX (describe your package)
+MovieBot is a set of scripts and procedural code used to create video files and slates for audio visual professionals.
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+Converts composite frames to JPEG
+Converts JPEG frames to Motion-JPEG Quicktime Movies
+Doesn't do anything else yet
 
 == SYNOPSIS:
 
@@ -16,11 +18,12 @@ FIX (describe your package)
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+ImageMagick
+Mplayer/Mencoder
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+git clone blah blah
 
 == LICENSE:
 

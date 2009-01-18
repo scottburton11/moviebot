@@ -5,8 +5,11 @@ require 'hoe'
 require './lib/movie_bot.rb'
 
 Hoe.new('MovieBot', Moviebot::VERSION) do |p|
-  # p.rubyforge_name = 'MovieBotx' # if different than lowercase project name
-  # p.developer('FIX', 'FIX@example.com')
+  p.developer = "Scott Burton"
+  p.description = "A simple movie converter, queue and directory crawler, all in one!"
+  p.email = "scottburton11@gmail.com"
+  p.url = "github.com/scottburton11"
+  p.extra_deps = ["rvideo"]
 end
 
 # vim: syntax=Ruby
