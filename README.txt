@@ -1,16 +1,16 @@
 = MovieBot
 
-* no site yet
+http://github.com/scottburton11/moviebot
 
 == DESCRIPTION:
 
-MovieBot is a set of scripts and procedural code used to create video files and slates for audio visual professionals.
+MovieBot is a wrapper for MEncoder, ffmpeg and Apple Compressor. 
+
+It provides simple command-line usage, remote control via Starling queue, 
+and directory crawling suitable for cron jobs and directory watchers.
 
 == FEATURES/PROBLEMS:
 
-Converts composite frames to JPEG
-Converts JPEG frames to Motion-JPEG Quicktime Movies
-Doesn't do anything else yet
 
 == SYNOPSIS:
 
@@ -23,13 +23,13 @@ Mplayer/Mencoder
 
 == INSTALL:
 
-git clone blah blah
+git clone git@github.com:scottburton11/moviebot.git 
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2008 FIX
+Copyright (c) 2008 Scott Burton
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
