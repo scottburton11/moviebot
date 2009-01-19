@@ -2,10 +2,10 @@
 
 require 'rubygems'
 require 'hoe'
-require './lib/movie_bot.rb'
+require 'init.rb'
 
-Hoe.new('MovieBot', Moviebot::VERSION) do |p|
-  p.developer = "Scott Burton"
+Hoe.new('MovieBot', MovieBot::VERSION) do |p|
+  p.author = "Scott Burton"
   p.description = "A simple movie converter, queue and directory crawler, all in one!"
   p.email = "scottburton11@gmail.com"
   p.url = "github.com/scottburton11"
@@ -13,3 +13,10 @@ Hoe.new('MovieBot', Moviebot::VERSION) do |p|
 end
 
 # vim: syntax=Ruby
+
+# Setup the gem
+desc "Cultivate the gem"
+task :cultivate do
+  system "touch Manifest.txt; rake check_manifest | grep -v \"(in \" | patch"
+  system "rake debug_gem | grep -v \"(in \" > `basename \\`pwd\\``.gemspec"
+end
