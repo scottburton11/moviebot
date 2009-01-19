@@ -1,7 +1,9 @@
 #!/usr/bin/env ruby 
 
-
 require 'rubygems'
+
+Dir.glob(File.join(File.dirname(__FILE__), "movie_bot/*.rb")).each {|file| require file}
+Dir.glob(File.join(File.dirname(__FILE__), "../vendor/*/lib/*.rb")).each {|file| require file}
 
 require 'optparse' 
 require 'rdoc/usage'

@@ -38,7 +38,7 @@
 #   http://www.opensource.org/licenses/mit-license.php
 
 
-require File.join(File.dirname(__FILE__), '../init.rb')
+require File.join(File.dirname(__FILE__), '../lib/movie_bot.rb')
 
 
 # Create and run the application
