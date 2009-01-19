@@ -5,7 +5,7 @@ require 'rcov/rcovtask'
 
 begin
   require 'jeweler'
-  require 'init'
+  require 'lib/movie_bot'
   
   Jeweler::Tasks.new do |s|
     s.name = "MovieBot"
