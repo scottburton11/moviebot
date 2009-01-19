@@ -11,7 +11,7 @@ require 'date'
 require 'starling'
 
 class MovieBot
-  VERSION = '0.0.2'
+  VERSION = '0.0.1'
   
   attr_reader :options
 
