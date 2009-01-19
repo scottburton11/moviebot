@@ -1,6 +1,6 @@
 = MovieBot
 
-http://github.com/scottburton11/moviebot
+http://wiki.github.com/scottburton11/moviebot
 
 == DESCRIPTION:
 
