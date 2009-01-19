@@ -14,6 +14,7 @@ begin
     s.homepage = "http://wiki.github.com/scottburton11/moviebot/home"
     s.description = "A simple movie converter, queue and directory crawler, all in one!"
     s.authors = ["Scott Burton"]
+    s.executables = ["moviebot"]
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
