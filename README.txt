@@ -14,22 +14,7 @@ and directory crawling suitable for cron jobs and directory watchers.
 
 == SYNOPSIS:
 
-    Regular Usage:
-    movie_bot /path/to/input.mov -o /path/to/output.mov
-    
-    In regular mode, you specify the input and output files.
-    
-    Queue Mode:
-    movie_bot -q host:port:queue_name -o /path/to/output/
-    
-    In queue mode, you specify the Memcache queue and name you want
-    to watch, and an output directory for files.
-    
-    Crawl Mode:
-    movie_bot /path/to/input -c -o /path/to/output
-    
-    In crawl mode, you specify a directory to crawl and an output
-    directory for files.
+  FIX (code sample of usage)
 
 == REQUIREMENTS:
 
