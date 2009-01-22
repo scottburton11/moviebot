@@ -4,39 +4,69 @@ end
 class RunLimitReachedError < RuntimeError
 end
 
-class MessageQueue
+class EmptyQueue < Array
+   def get
+      ""
+   end
+   def method_missing(meth)
+      ""
+   end
+end
 
-  def initialize(host, port, queue)
-    @host = host
-    @port = port
-    @queue = queue
-    @m = Starling.new("#{@host}:#{@port}")
-    report_usage
-  end
-  
-  def next
-    begin
-      @m.get("#{@queue}")
-    rescue EndOfQueue => e
-      puts "#{e.message}"
-      raise e
-    end  
-  end
-  
-  def report_usage
-    puts "MovieBot started in Queue Mode\nListening to host #{@host}:#{@port} for queue named '#{@queue}'\nType Ctrl-C to quit"
+class QueueClient
+
+  class << self
+     def next(client, queue)
+       begin
+         client.get("#{queue}")
+       rescue EndOfQueue => e
+         puts "#{e.message}"
+         raise e
+       end  
+     end
   end
 end
 
+class Queue
+
+   def initialize(host,port)
+    @host = host
+    @port = port
+   end
+
+   def load_server
+      begin
+         Starling.new("#{@host}:#{@port}")
+      rescue
+         EmptyQueue.new
+      end
+   end
+   
+   def server
+      @server ||= load_server
+   end
+   
+   def report_usage
+      puts "MovieBot started in Queue Mode\nListening to host #{@host}:#{@port}'\nType Ctrl-C to quit"
+   end
+   
+   def method_missing(meth, *args)
+      server.send(meth, args)
+   end
+end
+
 class QueueRunner
-  def initialize(output, host, port, queue)
+  def initialize(output, host, port, queue_name)
+    @host = host
+    @port = port
     @output = output
-    @mq = MessageQueue.new(host, port, queue)
+    @queue_name = queue_name
+    @queue = Queue.new(@host, @port)
     run
   end
   def run
     loop do
-      input = @mq.next
+      input = QueueClient.next(@queue, @queue_name)
       unless input.nil?
         if fork.nil?
           mov = MovieMaker.new(input, @output)
@@ -46,16 +76,6 @@ class QueueRunner
       end
       sleep 3
     end
-  end
+  end  
 end
 
-class ProcessCount
-  def initialize
-    processes.select{ |process| true unless (process =~ %r|#{@command.split.first}|).nil? }.size
-  end
-
-  def processes
-    `ps -axwww`
-  end
-
-end

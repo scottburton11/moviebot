@@ -63,7 +63,7 @@ class MovieBot
       opts.on('-V', '--verbose')    { @options.verbose = true }  
       opts.on('-Q', '--quiet')      { @options.quiet = true }
       opts.on('-o', '--output FILE')     { |path| @options.output = path }
-      opts.on('-q', '--queue HOST:PORT:NAME')      {|queue| @options.mode = "queue"; @options.queue_host, @options.queue_port, @options.queue_name = queue.split(':') unless queue.empty?}
+      opts.on('-q', '--queue HOST:PORT:NAME')      {|opts| @options.mode = "queue"; @options.queue_host, @options.queue_port, @options.queue_name = opts.split(':') unless opts.empty?}
       opts.on('-c', '--crawl')      {@options.mode = "crawl"}
             
       opts.parse!(@arguments) rescue return false

@@ -8,14 +8,14 @@
 #
 # == Examples
 # 
-#     movie_bot /path/to/input.mov -o /path/to/output.mov
-#     movie_bot -q -o /path/to/output/
-#     movie_bot /path/to/input -c -o /path/to/output
+#     moviebot /path/to/input.mov -o /path/to/output.mov
+#     moviebot -q -o /path/to/output/
+#     moviebot /path/to/input -c -o /path/to/output
 # 
 # == Usage 
-#   reguglar mode: movie_bot [options] /path/to/input -o /path/to/output
-#      queue mode: movie_bot [options] -q -o /path/to/output
-#      crawl mode: movie_bot [options] /path/to/input -c -o /path/to/output 
+#    regular mode: moviebot [options] /path/to/input -o /path/to/output
+#      queue mode: moviebot [options] -q -o /path/to/output
+#      crawl mode: moviebot [options] /path/to/input -c -o /path/to/output 
 # 
 #   For help use: movie_bot -h
 

@@ -1,6 +1,6 @@
 class ImageConverter
 
-  require "rmagick"
+#  require "rmagick"
   
   
   def initialize(home)
