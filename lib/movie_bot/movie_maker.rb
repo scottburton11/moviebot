@@ -1,12 +1,4 @@
-class Movie
-  def initialize(path)
-    @path = path
-  end
-  
-  def path
-    @path
-  end
-end
+
 
 class ImageSequence
   def initialize(path)
