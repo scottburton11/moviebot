@@ -26,8 +26,10 @@ class MovieMaker
   def initialize(input, output)
     if File.file?(input)
       @builder = MencoderMovieCreator.new(input, output)
-    elsif File.directory?(input) && !Dir.entries(input).empty?
+    elsif File.directory?(input) && 
       @builder = MencoderMovieFromImagesCreator.new(input, output)
+    elsif URI.regexp === input
+      @builder = MencoderMovieFromURLCreator.new(input,output)
     else
       raise RuntimeError
     end
@@ -117,12 +119,30 @@ class MencoderMovieFromImagesCreator
   end
   
   def convert
+    raise RuntimeError "Directory empty" if Dir.entries(@input).empty?
     exec('mencoder mf://#{@input.images} #{setting} -o #{@output}; exit 0')
   end
  
   def setting
     MencoderProfile.mjpeg
   end
+  
+end
+
+class MencoderMovieFromURLCreator
+  def initialize(input, output)
+    @input = input
+    @output = output
+  end
+  
+  def convert
+    exec("mencoder #{@input} #{setting} -o #{@output}/#{@input.split("/").last}; exit 0")
+  end
+  
+  def setting
+    MencoderProfile.iphone
+  end
+  
   
 end
 

@@ -4,10 +4,43 @@ end
 class RunLimitReachedError < RuntimeError
 end
 
+module EmptyQueueCommands
+  def available_queues
+    []
+  end
+  
+  def delete
+    ""
+  end
+  
+  def fetch
+    ""
+  end
+  
+  def flush
+    ""
+  end
+  
+  def get
+    ""
+  end
+  
+  def set
+    ""
+  end
+  
+  def sizeof
+    ""
+  end
+  
+  def with_servers
+    ""
+  end
+end
+
 class EmptyQueue < Array
-   def get
-      ""
-   end
+   include EmptyQueueCommands
+   
    def method_missing(meth)
       ""
    end
@@ -27,9 +60,9 @@ class QueueClient
   end
 end
 
-class Queue
+class QueueServer
 
-   def initialize(host,port)
+   def initialize(host, port)
     @host = host
     @port = port
    end
@@ -50,8 +83,8 @@ class Queue
       puts "MovieBot started in Queue Mode\nListening to host #{@host}:#{@port}'\nType Ctrl-C to quit"
    end
    
-   def method_missing(meth, *args)
-      server.send(meth, args)
+   def method_missing(meth, *args, &block)
+      @server.meth(args, block)
    end
 end
 
@@ -61,7 +94,7 @@ class QueueRunner
     @port = port
     @output = output
     @queue_name = queue_name
-    @queue = Queue.new(@host, @port)
+    @queue = Starling.new("#{@host}:#{@port}")#QueueServer.new(@host, @port)
     run
   end
   def run

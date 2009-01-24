@@ -12,6 +12,10 @@ require 'date'
 
 require 'starling'
 
+require 'uri'
+require 'net/http'
+require 'net/ftp'
+
 class MovieBot
   VERSION = '0.0.2'
   
