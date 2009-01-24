@@ -13,7 +13,8 @@ require 'date'
 require 'starling'
 
 class MovieBot
-  VERSION = '0.0.2'
+  version_data = YAML.load_file('VERSION.yml')
+  VERSION = "#{version_data[:major]}.#{version_data[:minor]}.#{version_data[:patch]}"
   
   attr_reader :options
 
@@ -63,7 +64,7 @@ class MovieBot
       opts.on('-V', '--verbose')    { @options.verbose = true }  
       opts.on('-Q', '--quiet')      { @options.quiet = true }
       opts.on('-o', '--output FILE')     { |path| @options.output = path }
-      opts.on('-q', '--queue HOST:PORT:NAME')      {|opts| @options.mode = "queue"; @options.queue_host, @options.queue_port, @options.queue_name = opts.split(':') unless opts.empty?}
+      opts.on('-q', '--queue HOST:PORT:NAME')      {|opts| @options.mode = "queue";  unless opts.empty?; @options.queue_host, @options.queue_port, @options.queue_name = opts.split(':'); end}
       opts.on('-c', '--crawl')      {@options.mode = "crawl"}
             
       opts.parse!(@arguments) rescue return false
