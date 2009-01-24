@@ -8,13 +8,14 @@ begin
   require 'lib/movie_bot'
   
   Jeweler::Tasks.new do |s|
+    s.executables = ["moviebot"]
+    s.files = FileList.new("bin/*", "lib/**/**", "Rakefile", "vendor/**")
     s.name = "MovieBot"
     s.summary = "A simple movie converter, queue and directory crawler, all in one!"
     s.email = "scottburton11@gmail.com"
     s.homepage = "http://wiki.github.com/scottburton11/moviebot/home"
     s.description = "A simple movie converter, queue and directory crawler, all in one!"
     s.authors = ["Scott Burton"]
-    s.executables = ["moviebot"]
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"

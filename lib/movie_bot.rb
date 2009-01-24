@@ -12,6 +12,10 @@ require 'date'
 
 require 'starling'
 
+require 'uri'
+require 'net/http'
+require 'net/ftp'
+
 class MovieBot
   version_data = YAML.load_file('VERSION.yml')
   VERSION = "#{version_data[:major]}.#{version_data[:minor]}.#{version_data[:patch]}"
