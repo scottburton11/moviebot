@@ -1,5 +1,4 @@
 require 'movie_bot/media_file'
-require 'rvideo'
 
 class Movie < MediaFile
   

@@ -26,6 +26,8 @@ require 'uri'
 require 'net/http'
 require 'net/ftp'
 
+require 'rvideo'
+
 class MovieBot
   version_data = YAML.load_file('VERSION.yml')
   VERSION = "#{version_data[:major]}.#{version_data[:minor]}.#{version_data[:patch]}"
@@ -78,7 +80,7 @@ class MovieBot
       opts.on('-V', '--verbose')    { @options.verbose = true }  
       opts.on('-Q', '--quiet')      { @options.quiet = true }
       opts.on('-o', '--output FILE')     { |path| @options.output = path }
-      opts.on('-q', '--queue HOST:PORT:NAME')      {|opts| @options.mode = "queue";  unless opts.empty?; @options.queue_host, @options.queue_port, @options.queue_name = opts.split(':'); end}
+      opts.on('-q', '--queue [HOST:PORT:NAME]')      {|queue_options| @options.mode = "queue"; @options.queue_host, @options.queue_port, @options.queue_name = queue_options.split(':') unless queue_options.nil?}
       opts.on('-c', '--crawl')      {@options.mode = "crawl"}
             
       opts.parse!(@arguments) rescue return false
