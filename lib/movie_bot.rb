@@ -9,6 +9,9 @@ $:.unshift File.expand_path(File.join(File.dirname(__FILE__), "..", "vendor"))
 require 'movie_bot/queue_manager'
 require 'movie_bot/movie_maker'
 require 'movie_bot/image_converter'
+# require 'movie_bot/file_accessor'
+# require 'movie_bot/media_file'
+# require 'movie_bot/movie'
 
 require 'rubygems'
 
