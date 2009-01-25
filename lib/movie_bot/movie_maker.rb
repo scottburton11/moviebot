@@ -1,4 +1,4 @@
-
+require 'movie_bot/movie'
 
 class ImageSequence
   def initialize(path)

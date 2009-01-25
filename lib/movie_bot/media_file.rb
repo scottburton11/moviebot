@@ -1,8 +1,9 @@
+require 'movie_bot/file_accessor'
+
 class MediaFile < FileAccessor
 
   def initialize(path,mode="r")
-    @path = path
-    super @path, mode
+    super(path, mode)
   end
 
   def data
