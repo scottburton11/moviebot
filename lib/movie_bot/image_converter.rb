@@ -1,7 +1,6 @@
-class ImageConverter
+require "im_magick/lib/im_magick"
 
-#  require "rmagick"
-  
+class ImageConverter
   
   def initialize(home)
     @home = Dir.open(home)

@@ -1,4 +1,5 @@
-
+require 'movie_bot/media_file'
+require 'movie_bot/movie'
 
 class ImageSequence
   def initialize(path)
@@ -26,7 +27,7 @@ class MovieMaker
   def initialize(input, output)
     if File.file?(input)
       @builder = MencoderMovieCreator.new(input, output)
-    elsif File.directory?(input) && 
+    elsif File.directory?(input)
       @builder = MencoderMovieFromImagesCreator.new(input, output)
     elsif URI.regexp === input
       @builder = MencoderMovieFromURLCreator.new(input,output)

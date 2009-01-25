@@ -1,9 +1,19 @@
 #!/usr/bin/env ruby 
 
-require 'rubygems'
+# Dir.glob(File.join(File.dirname(__FILE__), "movie_bot/*.rb")).each {|file| require file}
+# Dir.glob(File.join(File.dirname(__FILE__), "../vendor/*/lib/*.rb")).each {|file| require file}
 
-Dir.glob(File.join(File.dirname(__FILE__), "movie_bot/*.rb")).each {|file| require file}
-Dir.glob(File.join(File.dirname(__FILE__), "../vendor/*/lib/*.rb")).each {|file| require file}
+$:.unshift File.expand_path(File.join(File.dirname(__FILE__), "..", "lib"))
+$:.unshift File.expand_path(File.join(File.dirname(__FILE__), "..", "vendor"))
+
+require 'movie_bot/queue_manager'
+require 'movie_bot/movie_maker'
+require 'movie_bot/image_converter'
+# require 'movie_bot/file_accessor'
+# require 'movie_bot/media_file'
+# require 'movie_bot/movie'
+
+require 'rubygems'
 
 require 'optparse' 
 require 'rdoc/usage'
